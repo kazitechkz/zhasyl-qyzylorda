@@ -50,7 +50,7 @@
 <!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
     <a href="/" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-        <h1 class="m-0"><span class="text-success">ZHASYL</span> <span class="text-danger">Shymkent</span></h1>
+        <h1 class="m-0"><span class="text-success">ZHASYL</span> <span class="text-danger">Qyzylorda</span></h1>
     </a>
     <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
@@ -128,7 +128,7 @@
         <div class="row g-5">
             <div class="col-lg-6 col-md-6">
                 <h4 class="text-white mb-4">{{__('messages.contact')}}</h4>
-                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i> 	г.Шымкент, Туркестанская, 11А </p>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i> 	г.Кызылорда, Туркестанская, 11А </p>
                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+7(7252) 53-65-49</p>
                 <p class="mb-2"><i class="fa fa-envelope me-3"></i>prirodab@mail.ru</p>
 {{--                <div class="d-flex pt-2">--}}
@@ -171,7 +171,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                &copy; <a class="border-bottom" href="javascript:void (0)">Zhasyl Shymkent</a> {{__('messages.privacy_message')}}.
+                &copy; <a class="border-bottom" href="javascript:void (0)">Zhasyl Qyzylorda</a> {{__('messages.privacy_message')}}.
             </div>
         </div>
     </div>

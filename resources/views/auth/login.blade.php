@@ -5,36 +5,36 @@
 
         <form method="POST" action="{{ route('login') }}" enctype="multipart/form-data">
             @csrf
-            <div class="flex items-center">
-                <label for="file" class="w-[50px]">
-                    <img src="{{asset('images/key.svg')}}" alt="">
-                </label>
-                <input id="file" class="w-full mt-1" type="file" name="file" accept=".pfx"/>
-            </div>
-            <x-input-error :messages="$errors->get('file')" class="mt-2" />
-            <div class="flex my-3 items-center">
-                <input type="checkbox" id="check" name="check">
-                <label for="check" class="ml-3 text-white">Я согласен с <a href="{{route('private-policy')}}" class="text-blue-200" target="_blank">условиями</a></label>
-            </div>
-            <x-input-error :messages="$errors->get('check')" class="mt-2" />
+{{--            <div class="flex items-center">--}}
+{{--                <label for="file" class="w-[50px]">--}}
+{{--                    <img src="{{asset('images/key.svg')}}" alt="">--}}
+{{--                </label>--}}
+{{--                <input id="file" class="w-full mt-1" type="file" name="file" accept=".pfx"/>--}}
+{{--            </div>--}}
+{{--            <x-input-error :messages="$errors->get('file')" class="mt-2" />--}}
+{{--            <div class="flex my-3 items-center">--}}
+{{--                <input type="checkbox" id="check" name="check">--}}
+{{--                <label for="check" class="ml-3 text-white">Я согласен с <a href="{{route('private-policy')}}" class="text-blue-200" target="_blank">условиями</a></label>--}}
+{{--            </div>--}}
+{{--            <x-input-error :messages="$errors->get('check')" class="mt-2" />--}}
             <!-- Email Address -->
-            {{--        <div>--}}
-            {{--            <x-input-label for="email" :value="__('Email')" />--}}
-            {{--            <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus autocomplete="username" />--}}
-            {{--            <x-input-error :messages="$errors->get('email')" class="mt-2" />--}}
-            {{--        </div>--}}
+                    <div>
+                        <x-input-label for="email" :value="__('Email')" />
+                        <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus autocomplete="username" />
+                        <x-input-error :messages="$errors->get('email')" class="mt-2" />
+                    </div>
 
             <!-- Password -->
-            {{--        <div class="mt-4">--}}
-            {{--            <x-input-label for="password" :value="__('Пароль')" />--}}
+                    <div class="mt-4">
+                        <x-input-label for="password" :value="__('Пароль')" />
 
-            {{--            <x-text-input id="password" class="block mt-1 w-full"--}}
-            {{--                            type="password"--}}
-            {{--                            name="password"--}}
-            {{--                            required autocomplete="current-password" />--}}
+                        <x-text-input id="password" class="block mt-1 w-full"
+                                        type="password"
+                                        name="password"
+                                        required autocomplete="current-password" />
 
-            {{--            <x-input-error :messages="$errors->get('password')" class="mt-2" />--}}
-            {{--        </div>--}}
+                        <x-input-error :messages="$errors->get('password')" class="mt-2" />
+                    </div>
 
             <!-- Remember Me -->
             {{--        <div class="block mt-4">--}}

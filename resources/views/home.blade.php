@@ -104,7 +104,7 @@
     <!-- About Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="row g-5 align-items-end">
+            <div class="row g-5 align-items-center">
                 <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
                     <img class="img-fluid rounded" data-wow-delay="0.1s" src="/images/bg-1.jpg">
                 </div>
@@ -114,7 +114,9 @@
                     <h1 class="display-5 mb-4">{{__('messages.our_mission')}}</h1>
                     <p class="mb-4">
                         {{__('messages.our_mission_desc')}}
-                    <a class="btn btn-primary py-3 px-4" href="{{route("contact")}}">{{__('messages.write_us')}}</a>
+                    <div>
+                        <a class="btn btn-primary py-3 px-4" href="{{route("contact")}}">{{__('messages.write_us')}}</a>
+                    </div>
                 </div>
                 <div class="col-lg-3 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="row g-5">
