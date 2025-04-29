@@ -115,7 +115,7 @@
                     popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
                 }),
                 //    Initialize Map
-                map = L.map('map',{preferCanvas:true}).setView([42.315524, 69.586943], 12);
+                map = L.map('map',{preferCanvas:true}).setView([44.839245, 65.536402], 12);
             if(marker) {
                 let drawnItems = new L.FeatureGroup();
                 drawnItems.addLayer(new L.marker([marker.point.coordinates[1],marker.point.coordinates[0]]));

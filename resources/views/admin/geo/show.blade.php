@@ -35,7 +35,7 @@
             let userId = {{Js::from($id)}};
             const
 
-                map = L.map('map', {preferCanvas: true}).setView([42.315524, 69.586943], 14);
+                map = L.map('map', {preferCanvas: true}).setView([44.839245, 65.536402], 14);
             var meIcon = L.icon({
                 iconUrl: '/images/man_point.png',
                 iconSize:     [40, 40], // size of the icon

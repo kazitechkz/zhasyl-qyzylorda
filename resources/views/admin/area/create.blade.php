@@ -71,7 +71,7 @@
                     var dataPolygons = [];
 
                     var areas = {{Js::from($initialAreas)}};
-                    var map = L.map('map',{preferCanvas:true}).setView([42.315524, 69.586943], 12);
+                    var map = L.map('map',{preferCanvas:true}).setView([44.839245, 65.536402], 12);
                     map.pm.addControls({
                         position: 'topleft',
                         drawCircle: false,
