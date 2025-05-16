@@ -1,11 +1,18 @@
 @extends("layouts.front.front-layout")
+@push('front_css')
+    <style>
+        .img-fluid {
+            height: 300px;
+        }
+    </style>
+@endpush
 @section("main")
     <!-- Carousel Start -->
     <div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="/images/bg-2.jpeg" alt="Image">
+                    <img class="w-100" src="/images/main_bg_1.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -20,7 +27,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="/images/bg-4.jpg" alt="Image">
+                    <img class="w-100" src="/images/main_bg_2.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
@@ -106,7 +113,7 @@
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <img class="img-fluid rounded" data-wow-delay="0.1s" src="/images/bg-1.jpg">
+                    <img class="img-fluid rounded" data-wow-delay="0.1s" src="/images/main_bg_1.jpg" alt="Qyzylorda City">
                 </div>
                 <div class="col-lg-6 col-md-7 wow fadeInUp" data-wow-delay="0.3s">
                     <h1 class="display-1 text-primary mb-0">> 1 млн</h1>
@@ -355,7 +362,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item rounded d-flex justify-content-center">
-                        <img style="max-height: 200px" class="img-fluid" src="https://www.gov.kz/uploads/2020/2/5/a2771b439d27f513634fdbf9a2f12388_original.54774.png" alt="">
+                        <img style="max-height: 200px" class="img-fluid" src="images/logo_city.png" alt="">
                         <div class="team-text">
                             <h6 class="mb-0">{{__('messages.department_3')}}</h6>
 {{--                            <div class="team-social d-flex">--}}
